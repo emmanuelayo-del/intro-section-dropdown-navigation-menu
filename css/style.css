@@ -1,0 +1,167 @@
+   ::before,
+   ::after,
+   * {
+       margin: 0;
+       box-sizing: border-box;
+   }
+
+   body {
+       font-family: 'Karla';
+   }
+
+   #wrapper {
+       margin: 2em auto;
+       width: 700px;
+   }
+
+   .icon-menu-open {
+       background: none;
+       border: none;
+   }
+
+   .btn-close {
+       background: none;
+       border: none;
+       margin-left: 25em;
+   }
+
+   .icon-arrow-down {
+       margin-left: .5em;
+   }
+
+   .overlay {
+       width: 100%;
+       height: 300vh;
+       background-color: rgba(0, 0, 0, 0.4);
+       position: absolute;
+       top: 0;
+       left: 0;
+       /* backdrop-filter: blur(3px); */
+   }
+
+
+   .header {
+       display: flex;
+       gap: 35em;
+   }
+
+   .hidden {
+       display: none;
+   }
+
+   .main-nav-btn {
+       position: absolute;
+       top: 0;
+       left: 100%;
+       width: 500px;
+       max-width: 300%;
+       background-color: #fff;
+       padding: 1em;
+       height: 195vh;
+   }
+
+   .arrow-up-list,
+   .main-nav-btn-list {
+       list-style: none;
+   }
+
+   .bottom {
+       margin-bottom: 2em;
+   }
+
+   .header-text {
+       font-size: 3em;
+       font-weight: 800;
+   }
+
+   .image-hero-desktop {
+       display: none;
+   }
+
+
+   .arrow-up-list-link img {
+       margin-right: .8em;
+   }
+
+   .arrow-up-2 {
+       margin-bottom: 1em;
+   }
+
+   .arrow-up-list,
+   .main-nav-btn-list {
+       display: flex;
+       flex-direction: column;
+       gap: 2em;
+       margin-top: 2em;
+   }
+
+   .main-nav-link {
+       font-size: 2.5em;
+   }
+
+   .arrow-up-list li {
+       font-size: 2.5em;
+   }
+
+   .login {
+       margin-top: 2em;
+       border: none;
+       background: none;
+       font-size: 2.3em;
+       margin-left: 5em;
+   }
+
+   .register {
+       font-size: 2.3em;
+       background: hsl(0, 0%, 98%);
+       border: 2px solid hsl(0, 0%, 8%);
+       border-radius: 20px;
+       padding: 1em;
+       width: 100%;
+       background: none;
+       margin-top: 1em;
+   }
+
+   .container {
+       text-align: center;
+       padding: 1em;
+   }
+
+   .remote {
+       font-size: 3.8em;
+       font-weight: 750;
+   }
+
+   .remote-text {
+       font-size: 2em;
+       margin: 0.5em 0;
+       line-height: 1.5em;
+   }
+
+   .learn-more {
+       font-size: 1.5em;
+       font-weight: 600;
+       border-radius: 1em;
+       padding: 1em;
+       color: #fff;
+       background: hsl(0, 0%, 8%);
+       border: none;
+       cursor: pointer;
+       transition: all 0.3s ease;
+       margin: 2em 3em;
+   }
+
+   .logo {
+       display: flex;
+       gap: 2em;
+       justify-content: center;
+   }
+
+   .attribution {
+       font-size: 11px;
+       text-align: center;
+   }
+
+   .attribution a {
+       color: hsl(228, 45%, 44%);
+   }
