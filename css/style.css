@@ -7,11 +7,33 @@
 
    body {
        font-family: 'Karla';
+       background: hsl(0, 0%, 98%);
+   }
+
+   .login-register {
+       font-family: "Karla";
    }
 
    #wrapper {
        margin: 2em auto;
        width: 700px;
+   }
+
+   img {
+       width: 100%;
+       height: auto;
+   }
+
+   .icon-flex {
+       max-width: 7%;
+   }
+
+   .desktop-navigation-bar {
+       display: none;
+   }
+
+   .desktop-nav-bar {
+       display: none;
    }
 
    .icon-menu-open {
@@ -57,7 +79,7 @@
        max-width: 300%;
        background-color: #fff;
        padding: 1em;
-       height: 195vh;
+       height: 150vh;
    }
 
    .arrow-up-list,
@@ -99,6 +121,11 @@
        font-size: 2.5em;
    }
 
+   .heading-btn {
+       display: flex;
+       gap: 30em;
+   }
+
    .arrow-up-list li {
        font-size: 2.5em;
    }
@@ -115,8 +142,8 @@
        font-size: 2.3em;
        background: hsl(0, 0%, 98%);
        border: 2px solid hsl(0, 0%, 8%);
-       border-radius: 20px;
-       padding: 1em;
+       border-radius: 10px;
+       padding: .5em;
        width: 100%;
        background: none;
        margin-top: 1em;
@@ -154,7 +181,6 @@
    .logo {
        display: flex;
        gap: 2em;
-       justify-content: center;
    }
 
    .attribution {

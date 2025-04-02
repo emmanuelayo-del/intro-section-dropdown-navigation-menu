@@ -12,6 +12,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/queries.css" />
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 </head>
 
@@ -36,74 +37,145 @@
   <div id="wrapper">
 
     <div class="header">
-      <h2 class="header-text">snap</h2>
-      <div class="mobile-navigation-bar">
-        <button class="icon-menu-open">
-          <img src="/images/icon-menu.svg" /> </button>
-        <nav class="main-nav-btn">
-          <button class="icon-menu-close btn-close">
-            <img src="/images/icon-close-menu.svg" class="icon-close-menu" />
-          </button>
+      <div class="heading">
+        <div class="heading-btn">
+          <h2 class="header-text">snap</h2>
+          <button class="icon-menu-open">
+            <img src="/images/icon-menu.svg" class="icon-menu-open"> </button>
+        </div>
+        <div class="mobile-navigation-bar">
 
-          <ul class="main-nav-btn-list">
-            <li><a class="main-nav-link bottom">Features<img src="/images/icon-arrow-down.svg" width="5%"
-                  class="icon-arrow-down" />
-              </a><br />
+          <nav class="main-nav-btn">
+            <button class="icon-menu-close btn-close">
+              <img src="/images/icon-close-menu.svg" class="icon-close-menu" />
+            </button>
 
-              <div class="arrow-up-1 ">
-                <ul class="arrow-up-list">
-                  <li><a class="arrow-up-list-link"><img src="/images/icon-todo.svg" width="10%" /></a>Todo List</li>
-                  <li><a class="arrow-up-list-link"> <img src="/images/icon-calendar.svg" width="10%" /></a>Calender
-                  </li>
-                  <li> <a class=" arrow-up-list-link"><img src="/images/icon-reminders.svg" width="10%" /></a>Reminders
-                  </li>
-                  <li><a class=" arrow-up-list-link"> <img src="/images/icon-planning.svg" width="10%" /></a>Planning
-                  </li>
-                </ul>
-              </div>
+            <ul class="main-nav-btn-list">
+              <li><a class="main-nav-link bottom">Features<img src="/images/icon-arrow-down.svg" width="5%"
+                    class="icon-arrow-down icon-flex" />
+                </a><br />
 
-            </li>
-            <li><a class=" main-nav-link bottom">Company<img src="/images/icon-arrow-down.svg" width="5%"
-                  class="icon-arrow-down" /></a><br />
-              <div class="arrow-up-2 hidden">
-                <ul class="arrow-up-list">
-                  <li>History</li>
-                  <li>Our Team
-                  </li>
-                  <li> Blog
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li><a class="main-nav-link bottom">Careers</a></li>
-            <li><a class="main-nav-link bottom">About</a></li>
-          </ul>
+                <div class="arrow-up-1 hidden">
+                  <ul class="arrow-up-list">
+                    <li><a class="arrow-up-list-link"><img src="/images/icon-todo.svg" class="icon-flex" /></a>Todo List
+                    </li>
+                    <li><a class="arrow-up-list-link"> <img src="/images/icon-calendar.svg"
+                          class="icon-flex" /></a>Calender
+                    </li>
+                    <li> <a class=" arrow-up-list-link"><img src="/images/icon-reminders.svg"
+                          class="icon-flex" /></a>Reminders
+                    </li>
+                    <li><a class=" arrow-up-list-link"> <img src="/images/icon-planning.svg"
+                          class="icon-flex" /></a>Planning
+                    </li>
+                  </ul>
+                </div>
 
-          <button class="login">Login</button><br />
-          <button class="register">Register</button>
+              </li>
+              <li><a class=" main-nav-link bottom">Company<img src="/images/icon-arrow-down.svg" width="5%"
+                    class="icon-arrow-down icon-flex" /></a><br />
+                <div class="arrow-up-2 hidden">
+                  <ul class="arrow-up-list">
+                    <li>History</li>
+                    <li>Our Team
+                    </li>
+                    <li> Blog
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li><a class="main-nav-link bottom">Careers</a></li>
+              <li><a class="main-nav-link bottom">About</a></li>
+            </ul>
 
-        </nav>
+            <button class="login">Login</button><br />
+            <button class="register">Register</button>
+
+          </nav>
+        </div>
+
+        <div class="desktop-navigation-bar">
+          <nav class="desktop-main-nav-btn">
+            <button class="icon-menu-close btn-close">
+              <img src="/images/icon-close-menu.svg" class="icon-close-menu" />
+            </button>
+
+            <div class="desktop-login-register">
+              <ul class="desktop-main-nav-btn-list">
+                <li>
+                  <a class="an-main-nav-link bottom">Features <img src="/images/icon-arrow-down.svg" width="5%"
+                      class="icon-arrow-down icon-flex" />
+                  </a>
+                  <br />
+
+                  <div class="arrow-up">
+                    <div class="arrow-up-1">
+                      <ul class="arrow-up-list">
+                        <li><a class="arrow-up-list-link"><img src="/images/icon-todo.svg" class="icon-flex" /></a>Todo
+                          List
+                        </li>
+                        <li><a class="arrow-up-list-link"> <img src="/images/icon-calendar.svg"
+                              class="icon-flex" /></a>Calender
+                        </li>
+                        <li> <a class=" arrow-up-list-link"><img src="/images/icon-reminders.svg"
+                              class="icon-flex" /></a>Reminders
+                        </li>
+                        <li><a class=" arrow-up-list-link"> <img src="/images/icon-planning.svg"
+                              class="icon-flex" /></a>Planning
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li><a class="an-main-nav-link bottom">Company<img src="/images/icon-arrow-down.svg" width="5%"
+                      class="icon-arrow-down icon-flex" /></a><br />
+                  <div class="arrow-up-2 hidden">
+                    <ul class="arrow-up-list">
+                      <li>History</li>
+                      <li>Our Team
+                      </li>
+                      <li> Blog
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a class="an-main-nav-link bottom">Careers</a></li>
+                <li><a class="an-main-nav-link bottom">About</a></li>
+                <div class="login-register">
+                  <div class="login-regist">
+                    <button class="login">Login</button>
+                    <button class="register">Register</button>
+                  </div>
+                </div>
+              </ul>
+            </div>
+
+          </nav>
+        </div>
       </div>
     </div>
 
-    <div class="image">
-      <img src="/images/image-hero-mobile.png" alt="image-hero-mobile" class="image-hero-mobile" />
-      <img src="/images/image-hero-desktop.png" alt="image-hero-desktop" class="image-hero-desktop" />
-    </div>
-    <div class="container">
-      <h2 class="remote">Make remote work</h2>
-      <div class="remote-text-el">
-        <p class="remote-text">Get your team in sync, no matter your location. Streamline processes,
-          create team rituals, and watch productivity soar.</p>
+    <div class="image-container">
+      <div class="image">
+        <img src="/images/image-hero-mobile.png" alt="image-hero-mobile" class="image-hero-mobile" />
+        <img src="/images/image-hero-desktop.png" alt="image-hero-desktop" class="image-hero-desktop" />
       </div>
-      <button class="learn-more">Learn more</button>
+      <div class="container">
+        <div class="text-el">
+          <h1 class="heading-text">Make remote work</h1>
+          <p class="text">Get your team in sync, no matter your location. Streamline processes, create team rituals,
+            and watch productivity soar.</p>
+        </div>
+        <button class="learn-more">Learn more</button>
+        <footer class="logo">
+          <img src="/images/client-databiz.svg" alt="databiz-logo" class="databiz-logo" />
+          <img src="/images/client-audiophile.svg" alt="audiophile-logo" class="audiophile-logo" />
+          <img src="/images/client-meet.svg" alt="meet-logo" class="meet-logo" />
+          <img src="/images/client-maker.svg" alt="maker-logo" class="maker-logo" />
+        </footer>
+      </div>
     </div>
-    <footer class="logo">
-      <img src="/images/client-databiz.svg" alt="databiz-logo" class="databiz-logo" />
-      <img src="/images/client-audiophile.svg" alt="audiophile-logo" class="audiophile-logo" />
-      <img src="/images/client-meet.svg" alt="meet-logo" class="meet-logo" />
-      <img src="/images/client-maker.svg" alt="maker-logo" class="maker-logo" />
-    </footer>
+
   </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
