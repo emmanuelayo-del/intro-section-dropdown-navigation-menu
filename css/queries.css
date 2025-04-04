@@ -93,6 +93,12 @@
 
     .an-main-nav-link {
         font-size: 1em;
+        cursor: pointer;
+        color: hsl(0, 0%, 41%);
+    }
+
+    .an-main-nav-link:hover {
+        color: hsl(0, 0%, 8%);
     }
 
     .desktop-login-register {
