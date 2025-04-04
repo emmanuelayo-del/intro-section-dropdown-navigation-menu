@@ -25,12 +25,23 @@
    }
 
    .icon-flex {
-       max-width: 7%;
+       max-width: 5%;
+   }
+
+   /* .btn-open {
+       max-width: 50%;
+   } */
+
+   .icon-close-menu {
+       max-width: 100%;
+       margin-top: 3em;
    }
 
    .desktop-navigation-bar {
        display: none;
    }
+
+   /* .btn-closing {} */
 
    .desktop-nav-bar {
        display: none;
@@ -39,12 +50,16 @@
    .icon-menu-open {
        background: none;
        border: none;
+       max-width: 500%;
+       height: 100%;
    }
+
+   /* .icon-close-menu {} */
 
    .btn-close {
        background: none;
        border: none;
-       margin-left: 25em;
+       margin-left: 20em;
    }
 
    .icon-arrow-down {
@@ -75,10 +90,10 @@
        top: 0;
        left: 100%;
        width: 500px;
-       max-width: 300%;
-       background-color: #fff;
+       max-width: 200%;
+       background-color: hsl(0, 0%, 98%);
        padding: 1em;
-       height: 150vh;
+       height: 300vh;
    }
 
    .arrow-up-list,
@@ -117,16 +132,17 @@
    }
 
    .main-nav-link {
-       font-size: 2.5em;
+       font-size: 2em;
    }
 
    .heading-btn {
        display: flex;
-       gap: 30em;
+       gap: 34em;
+       padding: 1em
    }
 
    .arrow-up-list li {
-       font-size: 2.5em;
+       font-size: 2em;
    }
 
    .login {
@@ -153,12 +169,12 @@
        padding: 1em;
    }
 
-   .remote {
+   .heading-text {
        font-size: 3.8em;
        font-weight: 750;
    }
 
-   .remote-text {
+   .text {
        font-size: 2em;
        margin: 0.5em 0;
        line-height: 1.5em;

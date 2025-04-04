@@ -5,6 +5,10 @@
         width: 100%;
     }
 
+    .icon-flex {
+        max-width: 8%;
+    }
+
     .container {
         text-align: start;
         padding: 0 1em;
@@ -33,6 +37,11 @@
 
     .desktop-main-nav-btn-list {
         display: flex;
+        margin-top: 1em;
+    }
+
+    .arrow-up-icon {
+        display: flex;
     }
 
     .arrow-up-list {
@@ -55,7 +64,7 @@
     }
 
     .arrow-up-list img {
-        max-width: 10%;
+        max-width: 15%;
     }
 
     .desktop-nav-bar-list {
@@ -83,7 +92,7 @@
     }
 
     .an-main-nav-link {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .desktop-login-register {

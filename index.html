@@ -13,31 +13,33 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/queries.css" />
+
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 </head>
 
 <body>
-  <div class="overlay"></div>
+  <div class="overlay hidden"></div>
   <div id="wrapper">
 
     <div class="header">
       <div class="heading">
         <div class="heading-btn">
           <h2 class="header-text">snap</h2>
-          <button class="icon-menu-open">
-            <img src="/images/icon-menu.svg" class="icon-menu-open"> </button>
+          <!-- <button class="icon-menu-open"> -->
+          <img src="/images/icon-menu.svg" class="icon-menu-open btn-open" />
+          <!-- </button> -->
         </div>
-        <div class="mobile-navigation-bar">
+        <div class="mobile-navigation-bar hidden">
 
           <nav class="main-nav-btn">
             <button class="icon-menu-close btn-close">
-              <img src="/images/icon-close-menu.svg" class="icon-close-menu" />
+              <img src="/images/icon-close-menu.svg" class="icon-close-menu btn-closing" />
             </button>
 
             <ul class="main-nav-btn-list">
-              <li><a class="main-nav-link bottom">Features<img src="/images/icon-arrow-down.svg" width="5%"
+              <li><a class="main-nav-link bottom">Features<img src="/images/icon-arrow-down.svg" width="1%"
                     class="icon-arrow-down icon-flex" />
-                </a><br />
+                </a><img src="/images/icon-arrow-up.svg" width="5%" class="icon-arrow-up icon-flex hidden" /><br />
 
                 <div class="arrow-up-1 hidden">
                   <ul class="arrow-up-list">
@@ -57,7 +59,8 @@
 
               </li>
               <li><a class=" main-nav-link bottom">Company<img src="/images/icon-arrow-down.svg" width="5%"
-                    class="icon-arrow-down icon-flex" /></a><br />
+                    class="icon-arrow-down-2 icon-flex" /></a>
+                <img src="/images/icon-arrow-up.svg" width="5%" class="icon-arrow-up-2 icon-flex hidden" /><br />
                 <div class="arrow-up-2 hidden">
                   <ul class="arrow-up-list">
                     <li>History</li>
@@ -87,13 +90,16 @@
             <div class="desktop-login-register">
               <ul class="desktop-main-nav-btn-list">
                 <li>
+                  <!-- <div class="icon-arrow-down"> -->
                   <a class="an-main-nav-link bottom">Features <img src="/images/icon-arrow-down.svg" width="5%"
-                      class="icon-arrow-down icon-flex" />
+                      class="icon-arrow-down-3 icon-flex" />
+                    <!-- </div> -->
+                    <img src="/images/icon-arrow-up.svg" class="icon-arrow-up-3 icon-flex hidden" />
                   </a>
                   <br />
 
-                  <div class="arrow-up hidden">
-                    <div class="arrow-up-1">
+                  <div class="arrow-up-3 hidden">
+                    <div class="arrow-up-3">
                       <ul class="arrow-up-list">
                         <li><a class="arrow-up-list-link"><img src="/images/icon-todo.svg" class="icon-flex" /></a>Todo
                           List
@@ -112,8 +118,12 @@
                   </div>
                 </li>
                 <li><a class="an-main-nav-link bottom">Company<img src="/images/icon-arrow-down.svg" width="5%"
-                      class="icon-arrow-down icon-flex" /></a><br />
-                  <div class="arrow-up-2 hidden">
+                      class="icon-arrow-down-4 icon-flex" /></a>
+
+                  <img src="/images/icon-arrow-up.svg" width="5%" class="icon-arrow-up-4 icon-flex hidden" />
+                  <br />
+
+                  <div class="arrow-up-4 hidden">
                     <ul class="arrow-up-list">
                       <li>History</li>
                       <li>Our Team
@@ -125,10 +135,13 @@
                 </li>
                 <li><a class="an-main-nav-link bottom">Careers</a></li>
                 <li><a class="an-main-nav-link bottom">About</a></li>
+
                 <div class="login-register">
                   <div class="login-regist">
-                    <button class="login">Login</button>
-                    <button class="register">Register</button>
+                    <div class="login-reg">
+                      <button class="login">Login</button>
+                      <button class="register">Register</button>
+                    </div>
                   </div>
                 </div>
               </ul>
@@ -165,6 +178,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="mailto:ea3333838@gmail.com">Emmanuel Lawal</a>.
   </div>
+  <script defer src="./js/script.js"></script>
 </body>
 
 </html>
