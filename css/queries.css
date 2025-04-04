@@ -73,7 +73,7 @@
     }
 
     .heading-text {
-        font-size: 5.5em;
+        font-size: 5.3em;
     }
 
     .container {
@@ -205,12 +205,23 @@
         display: none;
     }
 
+    .register {
+        border: 2px solid hsl(0, 0%, 41%);
+    }
+
+    .register-login {
+        display: flex;
+        gap: 2em;
+        align-items: flex-end;
+        margin-left: 30em;
+    }
+
     .image-container {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 7em;
-        padding: 6.3em;
+        padding: 7em;
     }
 
     .learn-more {
