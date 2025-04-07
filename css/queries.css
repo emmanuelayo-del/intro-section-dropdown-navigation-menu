@@ -6,7 +6,11 @@
     }
 
     .icon-flex {
-        max-width: 8%;
+        max-width: 12%;
+    }
+
+    .header-text {
+        margin-top: .2em;
     }
 
     .container {
@@ -37,7 +41,8 @@
 
     .desktop-main-nav-btn-list {
         display: flex;
-        margin-top: 1em;
+        margin-top: 2em;
+        gap: 4em;
     }
 
     .arrow-up-icon {
@@ -91,14 +96,24 @@
         display: flex;
     }
 
-    .an-main-nav-link {
+    .arrow-up-3,
+    .arrow-up-4 {
+        margin-top: .9em;
+        margin-left: -2em;
+    }
+
+    .an-main-nav-link,
+    .an-main-nav-link-4 {
         font-size: 1em;
+        /* margin-top: 3em; */
         cursor: pointer;
         color: hsl(0, 0%, 41%);
     }
 
-    .an-main-nav-link:hover {
+    .an-main-nav-link:hover,
+    .an-main-nav-link-4:hover {
         color: hsl(0, 0%, 8%);
+        font-weight: 700;
     }
 
     .desktop-login-register {
@@ -169,12 +184,12 @@
 
     .register:hover {
         border: 2px solid hsl(0, 0%, 8%);
+
     }
 
     .desktop-main-nav-btn-list {
         display: flex;
         flex-direction: row;
-        gap: 2em;
     }
 
     .arrow-up-1 {

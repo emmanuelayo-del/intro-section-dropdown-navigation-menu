@@ -131,7 +131,8 @@
        margin-top: 2em;
    }
 
-   .main-nav-link {
+   .main-nav-link,
+   .main-nav-link-2 {
        font-size: 2em;
    }
 
