@@ -42,11 +42,13 @@ console.log(arrowUp4);
 iconMenuOpen.addEventListener('click', ()=> {
     mobileNavEl.classList.remove('hidden')
     overLay.classList.remove('hidden')
+    iconMenuOpen.classList.add('hidden')
 })
 
 iconMenuClose.addEventListener('click', ()=> {
     mobileNavEl.classList.add('hidden')
     overLay.classList.add('hidden')
+    iconMenuOpen.classList.remove('hidden')
 })
 
 mainNavLink.addEventListener('click', ()=> {

@@ -9,10 +9,6 @@
         max-width: 12%;
     }
 
-    .header-text {
-        margin-top: .2em;
-    }
-
     .container {
         text-align: start;
         padding: 0 1em;
@@ -41,8 +37,8 @@
 
     .desktop-main-nav-btn-list {
         display: flex;
-        margin-top: 2em;
-        gap: 3em;
+        margin-top: 1em;
+        gap: 2em;
     }
 
     .arrow-up-icon {
@@ -64,6 +60,10 @@
         gap: 2em;
     }
 
+    .arrow-up-list {
+        position: fixed;
+    }
+
     .arrow-up-list li {
         font-size: .8em;
     }
@@ -78,15 +78,12 @@
     }
 
     .heading-text {
-        font-size: 5.3em;
-    }
-
-    .container {
-        padding: 1em;
+        margin-top: 1em;
+        font-size: 4.3em;
     }
 
     .text {
-        font-size: 1.4em;
+        font-size: 1em;
         margin-top: 1em;
         color: hsl(0, 0%, 41%);
     }
@@ -105,7 +102,7 @@
 
     .an-main-nav-link,
     .an-main-nav-link-4 {
-        font-size: 1em;
+        font-size: .8em;
         /* margin-top: 3em; */
         cursor: pointer;
         color: hsl(0, 0%, 41%);
@@ -150,8 +147,7 @@
 
     .image-hero-desktop {
         display: block;
-        padding: 0 1em;
-        margin-top: 1em;
+        padding: 0 6em;
     }
 
     .desktop-navigation-bar {
@@ -175,6 +171,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: .2em;
     }
 
     .register {
@@ -235,20 +232,20 @@
         display: flex;
         gap: 2em;
         align-items: flex-end;
-        margin-left: 30em;
+        margin-left: 39em;
     }
 
     .image-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 7em;
-        padding: 3em;
-        margin-top: .1em;
+        gap: 3em;
+        margin-right: 9em;
+        margin-left: 9em;
     }
 
     .learn-more {
-        font-size: 1em;
+        font-size: .8em;
         margin-left: .3em;
     }
 
@@ -264,9 +261,5 @@
 
     .logo img {
         max-width: 10%;
-    }
-
-    .text-el {
-        padding: .9em;
     }
 }
