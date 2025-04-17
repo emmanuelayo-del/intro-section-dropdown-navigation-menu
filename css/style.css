@@ -67,7 +67,6 @@
        left: 0;
    }
 
-
    .header {
        display: flex;
        gap: 35em;
@@ -94,7 +93,7 @@
    }
 
    .bottom {
-       margin-bottom: 2em;
+       margin-bottom: 1em;
    }
 
    .header-text {

@@ -53,6 +53,7 @@
         border-radius: .8em;
         margin-top: .2em;
         box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+
     }
 
     .login-regist {
@@ -78,8 +79,9 @@
     }
 
     .heading-text {
-        margin-top: 1em;
+        margin-top: 1.2em;
         font-size: 4.3em;
+        line-height: .9;
     }
 
     .text {
@@ -89,7 +91,6 @@
     }
 
     .login-register {
-        margin-top: .1em;
         display: flex;
     }
 
