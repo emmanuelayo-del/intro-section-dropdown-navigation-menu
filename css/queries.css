@@ -5,6 +5,11 @@
         width: 100%;
     }
 
+    .header-text {
+        margin-top: .3em;
+        font-size: 2em;
+    }
+
     .icon-flex {
         max-width: 12%;
     }
@@ -20,6 +25,7 @@
 
     .heading {
         display: flex;
+        padding-left: 2em;
     }
 
     .heading-btn {
@@ -240,7 +246,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 3em;
+        gap: 4em;
         margin-right: 9em;
         margin-left: 9em;
     }
@@ -263,4 +269,66 @@
     .logo img {
         max-width: 10%;
     }
+}
+
+@media (min-width: 2000px) {
+    .image-hero-desktop {
+        display: block;
+        padding: .4em;
+    }
+
+    .header-text {
+        font-size: 3em;
+    }
+
+    .heading-text {
+        font-size: 7em;
+    }
+
+    .text {
+        font-size: 2em;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20em;
+        margin-right: 9em;
+        margin-left: 9em;
+        padding: 3em;
+    }
+
+    .an-main-nav-link,
+    .an-main-nav-link-4 {
+        font-size: 1.0em;
+        /* margin-top: 3em; */
+    }
+
+    .desktop-main-nav-btn-list {
+        display: flex;
+        flex-direction: row;
+        gap: 3em;
+        margin-top: 2em;
+    }
+
+    .arrow-up-list {
+        gap: 1em;
+        background: #fff;
+        backdrop-filter: blur(50px);
+        padding: 1.3em;
+        border-radius: 1.8em;
+        /* margin-top: .2em; */
+        box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+        font-size: 1em;
+        margin-left: 2em;
+    }
+
+    .register-login {
+        display: flex;
+        gap: 2em;
+        align-items: flex-end;
+        margin-left: 60em;
+    }
+
 }
