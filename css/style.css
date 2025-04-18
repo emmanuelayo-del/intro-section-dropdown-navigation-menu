@@ -51,7 +51,7 @@
    .btn-close {
        background: none;
        border: none;
-       margin-left: 26.7em;
+       margin-left: 24em;
    }
 
    .icon-arrow-down {
@@ -59,7 +59,7 @@
    }
 
    .overlay {
-       width: 170%;
+       width: 180%;
        height: 400vh;
        background-color: rgba(0, 0, 0, 0.4);
        position: absolute;
@@ -79,7 +79,7 @@
    .main-nav-btn {
        position: absolute;
        top: 0;
-       left: 115%;
+       left: 180%;
        width: 500px;
        max-width: 200%;
        background-color: hsl(0, 0%, 98%);
@@ -129,7 +129,7 @@
 
    .heading-btn {
        display: flex;
-       gap: 34em;
+       gap: 33em;
        padding: 1em
    }
 
