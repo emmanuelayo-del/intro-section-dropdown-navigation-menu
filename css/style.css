@@ -79,8 +79,8 @@
    .main-nav-btn {
        position: absolute;
        top: 0;
-       left: 100%;
-       width: 500px;
+       left: 80%;
+       width: 400px;
        max-width: 200%;
        background-color: hsl(0, 0%, 98%);
        padding: 1em;
