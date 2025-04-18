@@ -59,7 +59,7 @@
    }
 
    .overlay {
-       width: 180%;
+       width: 120%;
        height: 400vh;
        background-color: rgba(0, 0, 0, 0.4);
        position: absolute;
@@ -79,7 +79,7 @@
    .main-nav-btn {
        position: absolute;
        top: 0;
-       left: 180%;
+       left: 100%;
        width: 500px;
        max-width: 200%;
        background-color: hsl(0, 0%, 98%);
