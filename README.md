@@ -53,21 +53,6 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 i learnt a lot in this project especially having more knowledge about javascript and more knowledge about mobile and desktop development, and also knowing how to make use of flexbox.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1 class="my-design">My Love Design</h1>
-```
-```css
-.my-design {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-
 ### Continued development
 
 i am using this section to say that i am passionate to  continue developing in programming.
@@ -80,7 +65,7 @@ i am using this section to say that i am passionate to  continue developing in p
 
 ## Author
 
-- Website - [Emmanuel Lawal](https://intro-section-dropdown-navigation-menu.vercel.app/
+- Website - [Emmanuel Lawal](https://intro-section-dropdown-navigation-menu.vercel.app/)
 - Frontend Mentor - [@emmanuelayo-del](https://www.frontendmentor.io/profile/emmanuelayo-del)
 - Twitter - [https://x.com/AyomideEmm99555](https://www.twitter.com/yourusername)
 
