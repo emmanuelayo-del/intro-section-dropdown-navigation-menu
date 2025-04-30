@@ -67,7 +67,7 @@ i am using this section to say that i am passionate to  continue developing in p
 
 - Website - [Emmanuel Lawal](https://intro-section-dropdown-navigation-menu.vercel.app/)
 - Frontend Mentor - [@emmanuelayo-del](https://www.frontendmentor.io/profile/emmanuelayo-del)
-- Twitter - [https://x.com/AyomideEmm99555](https://www.twitter.com/yourusername)
+- Twitter - [https://x.com/AyomideEmm99555](https://x.com/AyomideEmm99555)
 
 ## Acknowledgments
 
