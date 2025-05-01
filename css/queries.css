@@ -3,6 +3,7 @@
 
     #wrapper {
         width: 100%;
+        /* padding: 1em; */
     }
 
     .header-text {
@@ -65,6 +66,7 @@
     .login-regist {
         display: flex;
         gap: 2em;
+
     }
 
     .arrow-up-list {
@@ -98,6 +100,7 @@
 
     .login-register {
         display: flex;
+
     }
 
     .arrow-up-3,
@@ -110,7 +113,6 @@
     .an-main-nav-link,
     .an-main-nav-link-4 {
         font-size: .8em;
-        /* margin-top: 3em; */
         cursor: pointer;
         color: hsl(0, 0%, 41%);
     }
@@ -136,6 +138,7 @@
         font-size: 1em;
         display: flex;
         gap: 2em;
+        margin-left: 20em;
     }
 
     .login,
@@ -239,7 +242,7 @@
         display: flex;
         gap: 2em;
         align-items: flex-end;
-        margin-left: 39em;
+        margin-left: 35em;
     }
 
     .image-container {
@@ -302,7 +305,6 @@
     .an-main-nav-link,
     .an-main-nav-link-4 {
         font-size: 1.0em;
-        /* margin-top: 3em; */
     }
 
     .desktop-main-nav-btn-list {
@@ -328,7 +330,5 @@
         display: flex;
         gap: 2em;
         align-items: flex-end;
-        margin-left: 60em;
     }
-
 }
