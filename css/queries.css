@@ -42,6 +42,16 @@
         padding: 2em;
     }
 
+    .an-main-nav-link:hover,
+    .an-main-nav-link-4:hover {
+        /* background: #fff; */
+        color: #000;
+        font-weight: 600;
+        border-radius: 1em;
+        padding: .2em;
+        cursor: pointer;
+    }
+
     .overlay {
         display: none;
     }
