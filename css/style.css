@@ -139,7 +139,7 @@
 
    .heading-btn {
        display: flex;
-       gap: 15em;
+       gap: 12%;
        padding: 1em
    }
 
@@ -176,7 +176,7 @@
    }
 
    .text {
-       font-size: 1.2em;
+       font-size: 1em;
        margin: 0.5em 0;
        line-height: 1.5em;
    }
