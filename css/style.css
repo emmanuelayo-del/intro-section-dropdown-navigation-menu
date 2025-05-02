@@ -53,7 +53,7 @@
    .btn-close {
        background: none;
        border: none;
-       margin-left: 23em;
+       margin-left: 16em;
    }
 
    .icon-arrow-down {
@@ -131,7 +131,6 @@
    .main-nav-btn-list {
        display: flex;
        flex-direction: column;
-       margin-top: 2em;
    }
 
    .main-nav-link,
@@ -146,24 +145,24 @@
    }
 
    .arrow-up-list li {
-       font-size: 2em;
+       font-size: 1.5em;
    }
 
    .login {
        margin-top: 2em;
        border: none;
        background: none;
-       font-size: 2.3em;
+       font-size: 1.5em;
        margin-left: 3em;
    }
 
    .register {
-       font-size: 2.3em;
+       font-size: 1.5em;
        background: hsl(0, 0%, 98%);
        border: 2px solid hsl(0, 0%, 8%);
        border-radius: 30px;
        padding: .5em;
-       width: 90%;
+       width: 60%;
        background: none;
        margin-top: 1em;
    }
