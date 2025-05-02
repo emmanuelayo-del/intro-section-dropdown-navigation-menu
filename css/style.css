@@ -137,8 +137,8 @@
 
    .heading-btn {
        display: flex;
-       gap: 13em;
-       padding: 1em
+       padding: 1em;
+       gap: 17em;
    }
 
    .arrow-up-list li {
