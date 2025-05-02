@@ -31,7 +31,7 @@ Users should be able to:
 ### Screenshot
 
 ![](/screenshots/Macbook-Air-intro-section-dropdown-navigation-menu.vercel.app.png)
-![](/screenshots/OPPO-Find-X3-PRO-intro-section-dropdown-navigation-menu.vercel.app.png)
+![](/screenshots/iPhone-13-PRO-127.0.0.1%20(1).png)
 
 Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
 
