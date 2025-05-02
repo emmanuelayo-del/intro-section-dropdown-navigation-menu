@@ -16,14 +16,12 @@
 
    #wrapper {
        max-width: 100%;
-       /* justify-content: center; */
        padding: auto;
        margin: auto;
    }
 
    img {
-       width: 100%;
-       height: auto;
+       max-width: 100%;
    }
 
    .icon-flex {
@@ -128,7 +126,7 @@
 
    .arrow-up-list,
    .main-nav-btn-list {
-       display: flex;
+       /* display: flex; */
        flex-direction: column;
    }
 
@@ -139,7 +137,7 @@
 
    .heading-btn {
        display: flex;
-       gap: 12%;
+       gap: 13em;
        padding: 1em
    }
 
