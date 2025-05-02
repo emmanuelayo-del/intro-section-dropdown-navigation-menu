@@ -81,7 +81,7 @@
    .main-nav-btn {
        position: absolute;
        top: 0;
-       left: 90%;
+       left: 30%;
        width: 400px;
        max-width: 200%;
        background-color: hsl(0, 0%, 98%);
@@ -92,6 +92,11 @@
    .arrow-up-list,
    .main-nav-btn-list {
        list-style: none;
+   }
+
+   .main-nav-btn-list li {
+       font-size: 1em;
+       margin: 1em 0;
    }
 
    .bottom {
@@ -126,13 +131,12 @@
    .main-nav-btn-list {
        display: flex;
        flex-direction: column;
-       gap: 2em;
        margin-top: 2em;
    }
 
    .main-nav-link,
    .main-nav-link-2 {
-       font-size: 2em;
+       font-size: 1.5em;
    }
 
    .heading-btn {
