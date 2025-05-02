@@ -15,10 +15,10 @@
    }
 
    #wrapper {
-       width: 400px;
-       height: 100vh;
-       justify-content: center;
+       max-width: 100%;
+       /* justify-content: center; */
        padding: auto;
+       margin: auto;
    }
 
    img {
@@ -116,7 +116,6 @@
    .image-hero-mobile {
        display: block;
        max-width: 100%;
-       overflow: hidden;
    }
 
    .arrow-up-list-link img {
@@ -172,7 +171,7 @@
    }
 
    .heading-text {
-       font-size: 2.5em;
+       font-size: 2em;
        font-weight: 750;
    }
 
